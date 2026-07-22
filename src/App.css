@@ -1,0 +1,28 @@
+.app-shell {
+  letter-spacing: -0.01em;
+}
+
+.app-shell ::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.app-shell ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.app-shell ::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.app-shell ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(244, 183, 70, 0.45);
+}
+
+select option {
+  color: #f4f4f1;
+  background: #252a2f;
+}
